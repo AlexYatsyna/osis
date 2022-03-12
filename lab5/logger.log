@@ -1,0 +1,12 @@
+2022/03/12 10:10:26    Set new default file mask
+2022/03/12 10:10:26    Deatach from session
+2022/03/12 10:10:26    Reset PWS
+2022/03/12 10:10:26    Close IO descriptors
+2022/03/12 10:10:26    Start signal control
+2022/03/12 10:10:26    Read configuration
+2022/03/12 10:10:26    Set signals
+2022/03/12 10:10:26    Start signal listen
+2022/03/12 10:10:39    GET SIGNAL 1 (SIGHUP)
+2022/03/12 10:10:39    Update configuration
+2022/03/12 10:10:39    Update signals
+2022/03/12 10:10:53    GET SIGNAL 10 (USR1)

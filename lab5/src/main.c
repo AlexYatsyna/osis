@@ -3,7 +3,7 @@
 
 int main(int argc, char* argv[]){
 
-    int pid=run_deamon(argv[1]);
+    int pid=run_deamon();
     if (!pid)
         return 0;
 

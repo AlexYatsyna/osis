@@ -12,7 +12,6 @@
 
 
 void deamon_proc();
-pthread_t track_thread;
 
 
 int run_deamon(){
@@ -100,7 +99,7 @@ void read_signals(){
 void fill_sig_set(sigset_t* psigset){
     sigemptyset(psigset);
     sigaddset(psigset, SIGHUP);
-    sigaddset(psigset, SIGINT);
+    sigaddset(psigset, SIGTERM);
     for (int i=0; i<sig_count; i++)
         sigaddset(psigset, signals[i]);
 }
